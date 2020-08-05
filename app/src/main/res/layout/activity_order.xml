@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+    <TextView
+        android:id="@+id/orderDisplay"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="normal"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/name_Space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name"
+        android:textColorHint="@color/hintColor"
+        app:layout_constraintTop_toBottomOf="@+id/orderDisplay"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/adress_Space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your adress"
+        android:textColorHint="@color/hintColor"
+        app:layout_constraintTop_toBottomOf="@+id/name_Space"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/phone_Space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_phone_number"
+        android:textColorHint="@color/hintColor"
+        app:layout_constraintTop_toBottomOf="@+id/adress_Space"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/paymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_method"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/phone_Space"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/paymentMethod"
+        app:layout_goneMarginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent">
+        <RadioButton
+            android:id="@+id/radioMpesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mpesa"
+            android:textColor="@color/mpesa_color"
+            android:onClick="onRadio_Button_Clicked"
+            />
+        <RadioButton
+            android:id="@+id/radioPaypal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paypal"
+            android:textColor="@color/paypal"
+            android:onClick="onRadio_Button_Clicked"
+            />
+        <RadioButton
+            android:id="@+id/radioCashOnDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cash_on_delivery"
+            android:textColor="@color/cashOnDelivery"
+            android:onClick="onRadio_Button_Clicked"
+            />
+
+
+    </RadioGroup>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

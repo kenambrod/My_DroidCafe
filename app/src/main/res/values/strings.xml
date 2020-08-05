@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My DroidCafe</string>
+    <string name="action_settings">Settings</string>
+    <string name="Heading_DroidCafe">DroidDessert</string>
+    <string name="choose_dessert">Choose Dessert</string>
+    <string name="desc_Doughnut">Dougnut are glazed and sprinkled with candy</string>
+    <string name="Froyo_Desc">Froyo made from fresh milk and industry proccesed then frozen yoghurt</string>
+    <string name="desc_iceCream">Ice cream is cool iced creamed delicacy of made using natural milkCream</string>
+
+    <!--    orders-->
+    <string name="doughnut_order">You have ordered Doughnut</string>
+    <string name="froyo_order">You have ordered froyo</string>
+    <string name="iceCream_order">You have ordered Ice cream</string>
+    <string name="enter_your_name">ENTER YOUR NAME</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="payment_method">PAYMENT METHOD</string>
+    <string name="cash_on_delivery">CASH ON DELIVERY</string>
+    <string name="paypal">PAYPAL</string>
+    <string name="mpesa">MPESA</string>
+    <string name="specials">SPECIALS</string>
+    <string name="offers">OFFERS</string>
+    <string name="callus">CALLUS</string>
+    <string name="location">LOCATION</string>
+    <string name="about_us">ABOUT_US</string>
+    <string name="status">STATUS</string>
+    <string name="orders">ORDERS</string>
+
+
+</resources>

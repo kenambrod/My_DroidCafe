@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="chooseColor">#02124B</color>
+    <color name="headings_main">#E712E7</color>
+    <color name="hintColor">#414040</color>
+    <color name="mpesa_color">#2BBE0A</color>
+    <color name="paypal">#000fff</color>
+    <color name="cashOnDelivery">#D3960A</color>
+</resources>
